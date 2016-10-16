@@ -13,6 +13,7 @@ def exa(z):
     n = z
     r = 0
     fact_list = []
+    example = ""
     while r <= n:
 
         fact_n = math.factorial(n)
@@ -20,11 +21,13 @@ def exa(z):
         sub = n - r
         fact_sub = math.factorial(sub)
         answer = (fact_n / (fact_sub * fact_r))
-        fact_list.append(answer)
+        # fact_list.append(answer)
+        example += str(answer) + "  "
 
         r += 1
 
-    print fact_list
+    # print fact_list
+    print example
 
 
 def main():
