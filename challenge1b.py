@@ -5,7 +5,7 @@
 #11
 #121
 #1331
-# Coded by Saffa. It is not perfect yet. Any help is appreciated
+# Coded by Saffa. It is not perfect yet. Any help is appreciated --> Comments in commit message
 import math
 
 
