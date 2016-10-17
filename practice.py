@@ -3,3 +3,6 @@
 # The program:
   # A user can search for any number
   # You need to tell them where (starting at 1, not 0), and how many times the number occurs
+  
+  ######################################################
+#COULD YOU PLEASE GIVE AN EXAMPLE OF THE FILE THAT WE SHOULD READ FROM                                      #
