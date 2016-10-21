@@ -1,0 +1,24 @@
+def reverseStr():
+    a = raw_input("What is your input:  ")
+    a = "stop"
+    b = []
+    for i in a:
+        b.append(i)
+    
+    c = []
+    my_index = len(b) -1
+    # print my_index
+    
+    for i in b:
+        c.append(b[my_index])
+        my_index -= 1
+    var = ""
+    for i in c:
+        var += str(i)
+
+    print var
+
+
+def main():
+    reverseStr()
+main()
